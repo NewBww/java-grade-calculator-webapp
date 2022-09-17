@@ -15,3 +15,5 @@
 .idea/**/shelf
 .idea/discord.xml
 
+/.DS_Store
+.idea/.DS_Store
