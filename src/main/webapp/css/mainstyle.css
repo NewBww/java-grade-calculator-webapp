@@ -1,0 +1,24 @@
+.subjectFormLabel {
+    padding: 10px;
+    font-size: 24px;
+}
+
+tr.th:first-child {
+    width: 30px;
+}
+
+.subjectFormInputText {
+    font-size: 24px;
+}
+
+.subjectFormInputNumber {
+    font-size: 24px;
+}
+
+.subjectFormInputSelect {
+    font-size: 24px;
+    height:34px;
+    line-height:30px;
+    background:#fff;
+    border: #fff;
+}

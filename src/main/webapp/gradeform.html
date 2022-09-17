@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/mainstyle.css" class="subjectFormInputNumber">
+    <title>GPA CAL</title>
+</head>
+<body>
+<h1>Grade Calculator</h1>
+<hr>
+<h2>Enter your grade</h2>
+<form method="post" action="gradeCalculator">
+    <table>
+        <tr>
+            <th>
+                <label for="subject1" class="subjectFormLabel">1.</label>
+            </th>
+            <th>
+                <input type="text" id="subject1"
+                       placeholder="SUBJECT 01"
+                       class="subjectFormInputText">
+
+            </th>
+            <th>
+                <input type="number" id="credit1" name="credit1" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade1" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject2" class="subjectFormLabel">2.</label>
+            </th>
+            <th>
+                <input type="text" id="subject2"
+                       placeholder="SUBJECT 02"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit2" name="credit2" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade2" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject3" class="subjectFormLabel">3.</label>
+            </th>
+            <th>
+                <input type="text" id="subject3"
+                       placeholder="SUBJECT 03"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit3" name="credit3" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th><select name="grade3" class="subjectFormInputSelect">
+                <option value>Grade</option>
+                <option value="4">4 (A)</option>
+                <option value="3.5">3.5 (B+)</option>
+                <option value="3">3 (B)</option>
+                <option value="2.5">2.5 (C+)</option>
+                <option value="2">2 (C)</option>
+                <option value="1.5">1.5 (D+)</option>
+                <option value="1">1 (D)</option>
+                <option value="0">0 (F)</option>
+            </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject4" class="subjectFormLabel">4.</label>
+            </th>
+            <th>
+                <input type="text" id="subject4"
+                       placeholder="SUBJECT 04"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit4" name="credit4" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade4" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject5" class="subjectFormLabel">5.</label>
+            </th>
+            <th>
+                <input type="text" id="subject5"
+                       placeholder="SUBJECT 05"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit5" name="credit5" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade5" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject6" class="subjectFormLabel">6.</label>
+            </th>
+            <th>
+                <input type="text" id="subject6"
+                       placeholder="SUBJECT 06"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit6" name="credit6" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade6" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject7" class="subjectFormLabel">7.</label>
+            </th>
+            <th>
+                <input type="text" id="subject7"
+                       placeholder="SUBJECT 07"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit7" name="credit7" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade7" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject8" class="subjectFormLabel">8.</label>
+            </th>
+            <th>
+                <input type="text" id="subject8"
+                       placeholder="SUBJECT 08"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit8" name="credit8" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th><select name="grade8" class="subjectFormInputSelect">
+                <option value>Grade</option>
+                <option value="4">4 (A)</option>
+                <option value="3.5">3.5 (B+)</option>
+                <option value="3">3 (B)</option>
+                <option value="2.5">2.5 (C+)</option>
+                <option value="2">2 (C)</option>
+                <option value="1.5">1.5 (D+)</option>
+                <option value="1">1 (D)</option>
+                <option value="0">0 (F)</option>
+            </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject9" class="subjectFormLabel">9.</label>
+            </th>
+            <th>
+                <input type="text" id="subject9"
+                       placeholder="SUBJECT 09"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit9" name="credit9" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade9" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="subject10" class="subjectFormLabel">10.</label>
+            </th>
+            <th>
+                <input type="text" id="subject10"
+                       placeholder="SUBJECT 10"
+                       class="subjectFormInputText">
+            </th>
+            <th>
+                <input type="number" id="credit10" name="credit10" min="0" max="6" value="Credits"
+                       class="subjectFormInputNumber">
+            </th>
+            <th>
+                <select name="grade10" class="subjectFormInputSelect">
+                    <option value>Grade</option>
+                    <option value="4">4 (A)</option>
+                    <option value="3.5">3.5 (B+)</option>
+                    <option value="3">3 (B)</option>
+                    <option value="2.5">2.5 (C+)</option>
+                    <option value="2">2 (C)</option>
+                    <option value="1.5">1.5 (D+)</option>
+                    <option value="1">1 (D)</option>
+                    <option value="0">0 (F)</option>
+                </select>
+            </th>
+    </table>
+    </th>
+    </tr>
+    <input type="submit" value="Submit">
+</form>
+<hr>
+<a href="index.jsp">[ Home ]</a>
+</body>
+</html>
